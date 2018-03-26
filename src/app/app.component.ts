@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -11,21 +11,21 @@ export class AppComponent {
   bike: string = 'app';
 
   //main page banner
-  hotseatString: string = 'DEVSHIFT: LASPAGAN 3.0';
+  hotseatString: string = 'devshift: LASPAGAN 3.0';
 
   //breadcrumb
   menuOptions = [
-    { title: 'Home' },
-    { title: 'Ride | Events' },
-    { title: 'Calendar' },
-    { title: 'Bikes | Members' },
-    { title: 'About' }
+    { title: 'Home', urlstring: '/' },
+    { title: 'Ride | Events', urlstring: '/ridelibrary' },
+    { title: 'Calendar', urlstring: '/ridecalendar' },
+    { title: 'Bikes | Members', urlstring: '/' },
+    { title: 'About', urlstring: '/about' }
 
   ];
 
   //breadcrumb
   loginDetails =
-    { name: 'BURAT', password: 'TANGINA' }
+    { name: '', password: 'X' }
 
   //past ride section
   pastrides = {
@@ -54,10 +54,19 @@ export class AppComponent {
   addMember(value: any) {
     this.members.push({ "name": value.name, "bike": value.bike })
   }
-
+  getRouteURL(event) {
+    alert(event.target.title);
+  }
+  
 }
 
 export class MemberList {
 
+}
+export class InfiniteCarouselComponent implements OnInit {
+  constructor(
+  ) { }
+
+  ngOnInit() { }
 }
 

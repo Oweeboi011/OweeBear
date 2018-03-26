@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { RidelibraryComponent } from './ridelibrary/ridelibrary.component';
 import { RidecalendarComponent } from './ridecalendar/ridecalendar.component';
-
+import {routes } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,8 @@ import { RidecalendarComponent } from './ridecalendar/ridecalendar.component';
     RidecalendarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routes
   ],
   providers: [],
   bootstrap: [AppComponent]

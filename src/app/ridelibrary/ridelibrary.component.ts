@@ -5,11 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ridelibrary.component.html',
   styleUrls: ['./ridelibrary.component.css']
 })
-export class RidelibraryComponent implements OnInit {
+export class RidelibraryComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }
