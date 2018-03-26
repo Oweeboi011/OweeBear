@@ -4,8 +4,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
-import { RidelibraryComponent } from './ridelibrary/ridelibrary.component';
 import { RidecalendarComponent } from './ridecalendar/ridecalendar.component';
+import { RidelibraryComponent } from './ridelibrary/ridelibrary.component';
+import { AppheaderComponent } from './appheader/appheader.component';
+import { AppHomeComponent } from './apphome/app-home.component';
 import {routes } from './app.routes';
 
 @NgModule({
@@ -13,7 +15,9 @@ import {routes } from './app.routes';
     AppComponent,
     AboutComponent,
     RidelibraryComponent,
-    RidecalendarComponent
+    RidecalendarComponent,
+    AppheaderComponent,
+    AppHomeComponent
   ],
   imports: [
     BrowserModule,
