@@ -1,11 +1,10 @@
 import { ModuleWithProviders } from '@angular/core'
 import { Routes, RouterModule } from '@angular/router'
+import { AppHomeComponent } from './pages/apphome/app-home.component';
+import { RidelibraryComponent } from './pages/ridelibrary/ridelibrary.component';
+import { RidecalendarComponent } from './pages/ridecalendar/ridecalendar.component';
+import { AboutComponent } from './pages/about/about.component';
 
-import { AppComponent, } from './app.component'
-import { AboutComponent } from './about/about.component'
-import { RidelibraryComponent } from './ridelibrary/ridelibrary.component'
-import { RidecalendarComponent } from './ridecalendar/ridecalendar.component'
-import { AppHomeComponent } from './apphome/app-home.component'
 
 export const router: Routes = [
 {path: '', redirectTo: 'apphome', pathMatch: 'full'},

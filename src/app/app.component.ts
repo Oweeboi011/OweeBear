@@ -13,20 +13,6 @@ export class AppComponent {
   //main page banner
   hotseatString: string = 'devshift: LASPAGAN 3.0';
 
-  //breadcrumb
-  menuOptions = [
-    { title: 'Home', urlstring: '/' },
-    { title: 'Ride | Events', urlstring: '/ridelibrary' },
-    { title: 'Calendar', urlstring: '/ridecalendar' },
-    { title: 'Bikes | Members', urlstring: '/' },
-    { title: 'About', urlstring: '/about' }
-
-  ];
-
-  //breadcrumb
-  loginDetails =
-    { name: '', password: 'X' }
-
   //past ride section
   pastrides = {
     title: 'Past Ride: Laspagan 2.0',
@@ -54,7 +40,7 @@ export class AppComponent {
   addMember(value: any) {
     this.members.push({ "name": value.name, "bike": value.bike })
   }
-  getRouteURL(event) {
+  getRouteURL(event:any) {
     alert(event.target.title);
   }
   

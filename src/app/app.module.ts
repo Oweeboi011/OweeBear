@@ -1,14 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
-import { AppComponent } from './app.component';
-import { AboutComponent } from './about/about.component';
-import { RidecalendarComponent } from './ridecalendar/ridecalendar.component';
-import { RidelibraryComponent } from './ridelibrary/ridelibrary.component';
+import { AboutComponent } from './pages/about/about.component';
+import { RidecalendarComponent } from './pages/ridecalendar/ridecalendar.component';
+import { RidelibraryComponent } from './pages/ridelibrary/ridelibrary.component';
 import { AppheaderComponent } from './appheader/appheader.component';
-import { AppHomeComponent } from './apphome/app-home.component';
+import { AppHomeComponent } from './pages/apphome/app-home.component';
 import {routes } from './app.routes';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [

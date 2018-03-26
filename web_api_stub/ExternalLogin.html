@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+<body>
+    
+    <script type="text/javascript">
+        opener.postMessage({
+            target: 'app',
+            user: {
+                
+                firstName: 'Jason Patrick',
+                lastName: 'Erana',
+                email: 'jason.p.p.erana@gmail.com',
+                mobile: '+639088175992',
+                providers: [{"ProviderName":"Facebook","AccessToken":"EAAOZAPHkWv7EBAOVfDMwzWjIOfwIYAaD8wJhgfNf3hKJYxeX22X6YDrLhkfKOkp9sjBwCADZAn6qvfneQZAmqxmTTe3vx4tNkrcJYG8aUZAdCtESkHS2u2zbNyOgy2ooT3OnfhXvUpPUZB3uUZBXmtUmcMLX43GAWo1ZByQgL7CCQZDZD","TokenExpiry":"2017-08-04T22:32:09.331058+08:00"}]
+                
+            }
+        }, "*");
+        window.close();
+        console.log("post message sent");
+    </script>
+</body>
+</html>

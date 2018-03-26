@@ -1,0 +1,449 @@
+{
+  "login": {
+    "success": {
+      "username": "jason@jasonerana.com",
+      "displayName": "Jason Patrick Erana"
+    }
+  },
+  "addresses": [{"id":1,"description":"124 me Metro Manila 1234 Philippines","region":"Metro Manila"},{"id":2,"description":"1234 Manila Metro Manila 1632 Philippines","region":"Metro Manila"},{"id":3,"description":"lot 20 blk 1 taguig Metro Manila 1632 Philippines","region":"Metro Manila"},{"id":4,"description":"2345 Wurxon Metro Manila 1234 Philippines","region":"Metro Manila"}],
+  "pages": {
+    "sample-page":{
+      "title": "This is a sample page Title",
+      "body":"<h1>Sample PAge here</h1> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "normalizedTitle" : "sample-page"
+    },
+    "bpi-confirmation":{
+      "title": "This is how to pay using Bpi",
+      "body":"<h1>Sample BPI PAge here</h1> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "normalizedTitle" : "bpi-confirmation"
+    }
+  },
+  "cart": {
+    "miniCart": {
+      "total": 1000.00,
+      "numberOfItems": 4,
+      "hasError": false,
+      "errorMessage": null
+    },
+    "items": [
+      {
+        "id": 17,
+        "name": "Pom Mixer - 60ml Low Nicotene (3mg)",
+        "quantity": 1,
+        "price": "250.00",
+        "total": "250.00",
+        "productId": 3,
+        "image": "Seven Clouds Pom Mixer.jpg"
+      },
+      {
+        "id": 18,
+        "name": "ScrewBerry - 60ml Low Nicotene (3mg)",
+        "quantity": 1,
+        "price": "250.00",
+        "total": "250.00",
+        "productId": 4,
+        "image": "Seven Clouds Screwberry.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Rougue Yogurt - 60ml Low Nicotene (3mg)",
+        "quantity": 1,
+        "price": "250.00",
+        "total": "250.00",
+        "productId": 5,
+        "image": "Seven Clouds Rougue Yogurt.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Mango Meister - 60ml Low Nicotene (3mg)",
+        "quantity": 1,
+        "price": "250.00",
+        "total": "250.00",
+        "productId": 2,
+        "image": "Seven Clouds Mango Meister.jpg"
+      }
+    ],
+    "promotions": [],
+    "shippingDiscount": 120.0
+  },
+  "GetProduct": {
+    "1": {
+      "id": 1,
+      "name": "Pioneer4you IPV 8 230W TC Box MOD",
+      "shortDescription": "Pioneer4you has unleashed their newest member of the IPV family with the brand new IPV 8. Taking notes from all of its passed successes, the IPV 8 vape MOD provides the user with a quality device that won't break the bank. Firing at an unheard of 230 watts, the IPV8 takes an ergonomic feel and applies the power of the proprietary YiHi SX330-F8 chipset. A spring loaded 510 connector can be used with any 510 threaded sub-ohm tank or RDA. This temperature control compatible device offers compatibility with Ni200 Nickel, Titanium, and SS 304 coils. Loaded with advanced safety features, the IPV 8 provides low voltage, low resistance, high-input voltage, short circuit, temperature overheat and reverse polarity protections. Bask in the glory of these finely designed IPV 8 MODs in black, stainless steel and red. Be sure to buy your Pioneer4you IPV 8 230W TC Box MOD today!",
+      "longDescription": "<h2>What's Included:</h2><ul><li>1 x Pioneer4you IPV8 230W MOD</li><li>1 x MicroUSB Cable</li><li>Instructional Manual</li></ul><h2>Specs &amp; Features</h2><ul><li>Dual 18650 High-Amp Battery - (Sold Separate)</li><li>Advanced YiHi SX330-F8 Chipset Technology</li><li>Wattage Output Range: 10-230W</li><li>Joule Output Range: 10-120J</li><li>Voltage Output Range: 1-7V</li><li>Minimum Atomizer Resistance: 0.05ohm</li><li>Temperature Control Range: 212-572F</li><li>TCR Value: 0.0005-0.007</li><li>Compatible with Ni200 Nickel, Titanium, and SS 304 Heating Elements</li><li>Supports SX Pure Heating Elements</li><li>Temperature Control of Resistance (TCR) Setting</li><li>Soft Ergonomic Contour</li><li>Visually Striking Finish - Various Colorways</li><li>Three Button Operations</li><li>Intuitive OLED Display</li><li>Temperature Control Functionality</li><li>Low Voltage Protection</li><li>Low Resistance Protection</li><li>High Input Voltage Warning</li><li>Short-Circuit Protection</li><li>Reverse Battery Protection</li><li>Temperature Overheat Protection</li><li>Spring-Loaded 510 Connection</li></ul>WARNING: This is an advanced Item. Please use at your own risk and always use proper precautions and handling as these are very sensitive to charging characteristics and may explode or burn if not properly handled. Please note that there is an inherent risk with the use of any and all rechargeable batteries in any circumstance. DirectVapor is not responsible for any damage, injury, or defect caused by the improper use and/or mishandling of Li-ion (Lithium-ion), LiPo (Lithium-ion Polymer) and any rechargeable batteries and chargers. ",
+      "variants": [
+        {
+          "id": 3,
+          "name": "default",
+          "price": 2250,
+          "quantity": 5,
+          "images": [
+            "ipv8.png",
+            "ipv8_1.png",
+            "ipv8_2.png"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "IPV 8 230W TC Box MOD ulticolor",
+      "shortDescription": "Pioneer4you has unleashed their newest member of the IPV family with the brand new IPV 8. Taking notes from all of its passed successes, the IPV 8 vape MOD provides the user with a quality device that won't break the bank. Firing at an unheard of 230 watts, the IPV8 takes an ergonomic feel and applies the power of the proprietary YiHi SX330-F8 chipset. A spring loaded 510 connector can be used with any 510 threaded sub-ohm tank or RDA. This temperature control compatible device offers compatibility with Ni200 Nickel, Titanium, and SS 304 coils. Loaded with advanced safety features, the IPV 8 provides low voltage, low resistance, high-input voltage, short circuit, temperature overheat and reverse polarity protections. Bask in the glory of these finely designed IPV 8 MODs in black, stainless steel and red. Be sure to buy your Pioneer4you IPV 8 230W TC Box MOD today!",
+      "longDescription": "<h2>What's Included:</h2><ul><li>1 x Pioneer4you IPV8 230W MOD</li><li>1 x MicroUSB Cable</li><li>Instructional Manual</li></ul><h2>Specs &amp; Features</h2><ul><li>Dual 18650 High-Amp Battery - (Sold Separate)</li><li>Advanced YiHi SX330-F8 Chipset Technology</li><li>Wattage Output Range: 10-230W</li><li>Joule Output Range: 10-120J</li><li>Voltage Output Range: 1-7V</li><li>Minimum Atomizer Resistance: 0.05ohm</li><li>Temperature Control Range: 212-572F</li><li>TCR Value: 0.0005-0.007</li><li>Compatible with Ni200 Nickel, Titanium, and SS 304 Heating Elements</li><li>Supports SX Pure Heating Elements</li><li>Temperature Control of Resistance (TCR) Setting</li><li>Soft Ergonomic Contour</li><li>Visually Striking Finish - Various Colorways</li><li>Three Button Operations</li><li>Intuitive OLED Display</li><li>Temperature Control Functionality</li><li>Low Voltage Protection</li><li>Low Resistance Protection</li><li>High Input Voltage Warning</li><li>Short-Circuit Protection</li><li>Reverse Battery Protection</li><li>Temperature Overheat Protection</li><li>Spring-Loaded 510 Connection</li></ul>WARNING: This is an advanced Item. Please use at your own risk and always use proper precautions and handling as these are very sensitive to charging characteristics and may explode or burn if not properly handled. Please note that there is an inherent risk with the use of any and all rechargeable batteries in any circumstance. DirectVapor is not responsible for any damage, injury, or defect caused by the improper use and/or mishandling of Li-ion (Lithium-ion), LiPo (Lithium-ion Polymer) and any rechargeable batteries and chargers. ",
+      "variants": [
+        {
+          "id": 1,
+          "name": "Red",
+          "price": 2250,
+          "quantity": 5,
+          "images": [
+            "ipv8.png",
+            "ipv8_1.png",
+            "ipv8_2.png"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Green",
+          "price": 2000,
+          "quantity": 0,
+          "images": [
+            "ipv8_1.png",
+            "ipv8_2.png"
+          ]
+        }
+      ]
+    }
+  },
+  "GetNavigation": [
+    {
+      "name": "Home"
+    },
+    {
+      "name": "Mods",
+      "columns": [
+        {
+          "headers": [
+            {
+              "text": "Pen Type",
+              "links": [
+                {
+                  "text": "Ejoyetech",
+                  "link": "value1"
+                },
+                {
+                  "text": "Smok",
+                  "link": "value1"
+                },
+                {
+                  "text": "Geek Vape",
+                  "link": "value1"
+                }
+              ]
+            },
+            {
+              "text": "Variable Mods",
+              "links": [
+                {
+                  "text": "Ejoyetech",
+                  "link": "value1"
+                },
+                {
+                  "text": "Smok",
+                  "link": "value1"
+                },
+                {
+                  "text": "Geek Vape",
+                  "link": "value1"
+                }
+              ]
+            },
+            {
+              "text": "TC Mods",
+              "links": [
+                {
+                  "text": "Ejoyetech",
+                  "link": "value1"
+                },
+                {
+                  "text": "Smok",
+                  "link": "value1"
+                },
+                {
+                  "text": "Geek Vape",
+                  "link": "value1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "headers": [
+            {
+              "text": "Mechanical",
+              "links": [
+                {
+                  "text": "Ejoyetech",
+                  "link": "value1"
+                },
+                {
+                  "text": "Smok",
+                  "link": "value1"
+                },
+                {
+                  "text": "Geek Vape",
+                  "link": "value1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ProductList": {
+    "Juice": [{"id":2,"name":"Mango Meister","tags":null,"attributes":null,"shortDescription":"You can never go wrong with sweet dried Mango, again secretly twisted to refresh your tastebuds.","longDescription":"","dateAdded":"2017-08-28T04:39:55.9","status":2,"brand":"Seven Clouds","variants":[{"id":3,"name":"60ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":11}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Seven Clouds Mango Meister.jpg","productImages":["Seven Clouds Mango Meister.jpg"]},{"id":3,"name":"Pom Mixer","tags":null,"attributes":null,"shortDescription":"Have a bash of pomegranate mixed with our secret twist.","longDescription":"","dateAdded":"2017-08-28T04:39:55.9","status":2,"brand":"Seven Clouds","variants":[{"id":4,"name":"60ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":11}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Seven Clouds Pom Mixer.jpg","productImages":["Seven Clouds Pom Mixer.jpg"]},{"id":4,"name":"ScrewBerry","tags":null,"attributes":null,"shortDescription":"We have a special blend of Strawberries with another secret twist.","longDescription":"","dateAdded":"2017-08-28T04:39:55.9166667","status":2,"brand":"Seven Clouds","variants":[{"id":5,"name":"60ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":9}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Seven Clouds Screwberry.jpg","productImages":["Seven Clouds Screwberry.jpg"]},{"id":5,"name":"Rougue Yogurt","tags":null,"attributes":null,"shortDescription":"This is our blend of Watermelon yogurt with just a hint of menthol and secret twist.","longDescription":"","dateAdded":"2017-08-28T04:39:55.9166667","status":2,"brand":"Seven Clouds","variants":[{"id":6,"name":"60ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":11}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Seven Clouds Rougue Yogurt.jpg","productImages":["Seven Clouds Rougue Yogurt.jpg"]},{"id":6,"name":"Goat Milk","tags":null,"attributes":null,"shortDescription":"You can taste the unique flavor of Creamy Cheesecake.","longDescription":"","dateAdded":"2017-08-28T04:39:55.9333333","status":2,"brand":"Space Vapors","variants":[{"id":7,"name":"50ml Low Nicotene (3mg)","images":null,"price":300.00,"quantity":5},{"id":8,"name":"50ml Medium Nicotene (6mg)","images":null,"price":300.00,"quantity":3}],"price":300.00,"isPreOrderOnly":false,"defaultImage":"Space Vapor Goat's Milk.jpg","productImages":["Space Vapor Goat's Milk.jpg"]},{"id":7,"name":"Goat Milk Strawberry","tags":null,"attributes":null,"shortDescription":"You can taste the flavor of Nestles Strawberry Quick.","longDescription":"","dateAdded":"2017-08-28T04:39:55.9333333","status":2,"brand":"Space Vapors","variants":[{"id":9,"name":"50ml Low Nicotene (3mg)","images":null,"price":300.00,"quantity":6},{"id":10,"name":"50ml Medium Nicotene (6mg)","images":null,"price":300.00,"quantity":2}],"price":300.00,"isPreOrderOnly":false,"defaultImage":"Space Vapor Goat's Milk Strawberry.jpg","productImages":["Space Vapor Goat's Milk Strawberry.jpg"]},{"id":8,"name":"Goat Milk Choco","tags":null,"attributes":null,"shortDescription":"You can enjoy the flavor of Nestles Chocolate Quick.","longDescription":"","dateAdded":"2017-08-28T04:39:55.95","status":2,"brand":"Space Vapors","variants":[{"id":11,"name":"50ml Low Nicotene (3mg)","images":null,"price":300.00,"quantity":6},{"id":12,"name":"50ml Medium Nicotene (6mg)","images":null,"price":300.00,"quantity":2}],"price":300.00,"isPreOrderOnly":false,"defaultImage":"Space Vapor Goat's Milk Choco.jpg","productImages":["Space Vapor Goat's Milk Choco.jpg"]},{"id":9,"name":"Deluxe Vanilla Cheesecake","tags":null,"attributes":null,"shortDescription":"You can enjoy the combination of the French Vanilla and New York Cheesecake.","longDescription":"","dateAdded":"2017-08-28T04:39:55.95","status":2,"brand":"Space Vapors","variants":[{"id":13,"name":"50ml Low Nicotene (3mg)","images":null,"price":300.00,"quantity":6},{"id":14,"name":"50ml Medium Nicotene (6mg)","images":null,"price":300.00,"quantity":2}],"price":300.00,"isPreOrderOnly":false,"defaultImage":"Space Vapor Deluxe Vanilla Cheesecake.jpg","productImages":["Space Vapor Deluxe Vanilla Cheesecake.jpg"]},{"id":10,"name":"Lux Tobacco","tags":null,"attributes":null,"shortDescription":"Our best tasting Tobacco flavor, Ry4 with added Vanilla and Caramel with a bit of premium tobacco concentrate.","longDescription":"","dateAdded":"2017-08-28T04:39:55.9633333","status":2,"brand":"Space Vapors","variants":[{"id":15,"name":"50ml Low Nicotene (3mg)","images":null,"price":300.00,"quantity":5},{"id":16,"name":"50ml Medium Nicotene (6mg)","images":null,"price":300.00,"quantity":1}],"price":300.00,"isPreOrderOnly":false,"defaultImage":"Space Vapor Lux Tobacco.jpg","productImages":["Space Vapor Lux Tobacco.jpg"]},{"id":11,"name":"Bariant","tags":null,"attributes":null,"shortDescription":"You can taste the combination of 4 berries and Sweet watermelon, with a touch oe coolness and menthol.","longDescription":"","dateAdded":"2017-08-28T04:39:55.9633333","status":2,"brand":"Space Vapors","variants":[{"id":17,"name":"50ml Low Nicotene (3mg)","images":null,"price":300.00,"quantity":5},{"id":18,"name":"50ml Medium Nicotene (6mg)","images":null,"price":300.00,"quantity":2}],"price":300.00,"isPreOrderOnly":false,"defaultImage":"Space Vapor Bariant.jpg","productImages":["Space Vapor Bariant.jpg"]},{"id":12,"name":"Winter Melon","tags":null,"attributes":null,"shortDescription":"A Mentholated Watermelon.","longDescription":"","dateAdded":"2017-08-28T04:39:55.98","status":2,"brand":"Demon Vape","variants":[{"id":19,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":0},{"id":20,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":2},{"id":21,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Demon Vape Winter Melon.jpg","productImages":["Demon Vape Winter Melon.jpg"]},{"id":13,"name":"Royal Grapes","tags":null,"attributes":null,"shortDescription":"The Real thing Royal Grapes.","longDescription":"","dateAdded":"2017-08-28T04:39:55.98","status":2,"brand":"Demon Vape","variants":[{"id":22,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":2},{"id":23,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":2},{"id":24,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Demon Vape Royal Grapes.jpg","productImages":["Demon Vape Royal Grapes.jpg"]},{"id":14,"name":"Custardation","tags":null,"attributes":null,"shortDescription":"A taste of Vanilla Custard Tabacco","longDescription":"","dateAdded":"2017-08-28T04:39:55.9966667","status":2,"brand":"Demon Vape","variants":[{"id":25,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":2},{"id":26,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":2},{"id":27,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Demon Vape Custardation.jpg","productImages":["Demon Vape Custardation.jpg"]},{"id":15,"name":"Butterfly Massacre","tags":null,"attributes":null,"shortDescription":"A Pomegranate with a twist of Bubblegum.","longDescription":"","dateAdded":"2017-08-28T04:39:56.01","status":2,"brand":"Demon Vape","variants":[{"id":28,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":2},{"id":29,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":2},{"id":30,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Demon Vape Butterfly Massacre.jpg","productImages":["Demon Vape Butterfly Massacre.jpg"]},{"id":16,"name":"Heaven Breath","tags":null,"attributes":null,"shortDescription":"A highly mentholated fruity mix.","longDescription":"","dateAdded":"2017-08-28T04:39:56.01","status":2,"brand":"Demon Vape","variants":[{"id":31,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":2},{"id":32,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":2},{"id":33,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Demon Vape Heaven Breath.jpg","productImages":["Demon Vape Heaven Breath.jpg"]},{"id":17,"name":"Fla Mango","tags":null,"attributes":null,"shortDescription":"A unique mentholated Mango taste.","longDescription":"","dateAdded":"2017-08-28T04:39:56.0266667","status":2,"brand":"Demon Vape","variants":[{"id":34,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":0},{"id":35,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":0},{"id":36,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":0}],"price":0.0,"isPreOrderOnly":false,"defaultImage":"Demon Vape Fla Mango.jpg","productImages":["Demon Vape Fla Mango.jpg"]},{"id":18,"name":"Frostrawberry","tags":null,"attributes":null,"shortDescription":"A mentholated fresh picked Strawberries.","longDescription":"","dateAdded":"2017-08-28T04:39:56.0266667","status":2,"brand":"Demon Vape","variants":[{"id":37,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":1},{"id":38,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":2},{"id":39,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Demon Vape Frostrawberry.jpg","productImages":["Demon Vape Frostrawberry.jpg"]},{"id":19,"name":"RTO","tags":null,"attributes":null,"shortDescription":"Royal tru Orange","longDescription":"","dateAdded":"2017-08-28T04:39:56.0433333","status":2,"brand":"Demon Vape","variants":[{"id":40,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":2},{"id":41,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":1},{"id":42,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Demon Vape RTO.jpg","productImages":["Demon Vape RTO.jpg"]},{"id":20,"name":"4 Horemen","tags":null,"attributes":null,"shortDescription":"A mixed of 4 pastry flavor Nutty creamy based.","longDescription":"","dateAdded":"2017-08-28T04:39:56.0433333","status":2,"brand":"Demon Vape","variants":[{"id":43,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":1},{"id":44,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":1},{"id":45,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":true,"defaultImage":"Demon Vape 4 Horemen.jpg","productImages":["Demon Vape 4 Horemen.jpg"]},{"id":21,"name":"Nueva York","tags":null,"attributes":null,"shortDescription":"A taste of New York Cheesecake.","longDescription":"","dateAdded":"2017-08-28T04:39:56.06","status":2,"brand":"Demon Vape","variants":[{"id":46,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":2},{"id":47,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":2},{"id":48,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Demon Vape Nueva York.jpg","productImages":["Demon Vape Nueva York.jpg"]},{"id":22,"name":"Oero","tags":null,"attributes":null,"shortDescription":"A classic Oreo flavored cookie.","longDescription":"","dateAdded":"2017-08-28T04:39:56.06","status":2,"brand":"Demon Vape","variants":[{"id":49,"name":"65ml No Nicotene","images":null,"price":250.00,"quantity":2},{"id":50,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":2},{"id":51,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Demon Vape Oero.jpg","productImages":["Demon Vape Oero.jpg"]},{"id":23,"name":"Fruit Ooze Taffy","tags":null,"attributes":null,"shortDescription":"A harmonious blend of peaches and watermelon with a dash of taffiness that makes this a unique and mouth watering dessert vape!","longDescription":"","dateAdded":"2017-08-28T04:39:56.0733333","status":2,"brand":"Taffy Treats","variants":[{"id":52,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":8},{"id":53,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Taffy Treats Fruit Ooze Taffy.jpg","productImages":["Taffy Treats Fruit Ooze Taffy.jpg"]},{"id":24,"name":"Sour Apple Taffy","tags":null,"attributes":null,"shortDescription":"Crisp red apples blended with just the right amount of tartness and sweetness to make it sour-viciously good! This would definitely be at the top of your juice stash!","longDescription":"","dateAdded":"2017-08-28T04:39:56.0733333","status":2,"brand":"Taffy Treats","variants":[{"id":54,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":8},{"id":55,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Taffy Treats Sour Apple Taffy.jpg","productImages":["Taffy Treats Sour Apple Taffy.jpg"]},{"id":25,"name":"Salt Water Taffy","tags":null,"attributes":null,"shortDescription":"This ain’t salty nor it came from the sea. it’s a secret recipe which is a unique blend of different fruits with saltwater taffy as its base! This will surely tickle your curiosity and taste buds at the same time!","longDescription":"","dateAdded":"2017-08-28T04:39:56.09","status":2,"brand":"Taffy Treats","variants":[{"id":56,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":8},{"id":57,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Taffy Treats Salt Water Taffy.jpg","productImages":["Taffy Treats Salt Water Taffy.jpg"]},{"id":26,"name":"Cherry Bubble Taffy","tags":null,"attributes":null,"shortDescription":"This would make you reminisce your childhood days once you’ve tasted this familiar cherry bubblegum taffy! An ultimate explosion of cherry bubble goodness in every puff!","longDescription":"","dateAdded":"2017-08-28T04:39:56.09","status":2,"brand":"Taffy Treats","variants":[{"id":58,"name":"65ml Low Nicotene (3mg)","images":null,"price":250.00,"quantity":8},{"id":59,"name":"65ml Medium Nicotene (6mg)","images":null,"price":250.00,"quantity":2}],"price":250.00,"isPreOrderOnly":false,"defaultImage":"Taffy Treats Cherry Bubble Taffy.jpg","productImages":["Taffy Treats Cherry Bubble Taffy.jpg"]}]
+  },
+  "provinces": [
+    "Metro Manila",
+    "Abra",
+    "Agusan Del Norte",
+    "Agusan Del Sur",
+    "aklan ",
+    "Albay",
+    "Antique",
+    "Apayao",
+    "Aurora",
+    "Basilan",
+    "Bataan",
+    "Batangas",
+    "Benguet",
+    "Biliran",
+    "Bohol",
+    "Bukidnon",
+    "Bulacan",
+    "Cagayan",
+    "Camarines Norto",
+    "Camarines Sur",
+    "Camiguin",
+    "Capiz",
+    "Catanduanes",
+    "Cavite",
+    "Cebu",
+    "Compostela Valley",
+    "Cotabato",
+    "Davao Del Norte",
+    "Davao Del Sur",
+    "Davao Oriental",
+    "Dinagat islands",
+    "Dumaguit",
+    "Eastern Samar",
+    "Guimaras",
+    "Ifugao",
+    "Ilocos Norte",
+    "Ilocos Sur",
+    "Iloilo",
+    "Isabela",
+    "Kalibo ",
+    "Kalinga",
+    "La Union",
+    "Laguna",
+    "Lanao Del Norte",
+    "Lanao Del Sur",
+    "Leyte",
+    "Maguindanao",
+    "Marinduque",
+    "Masbate",
+    "Misamis Occidental",
+    "Misamis Oriental",
+    "Mountain Province",
+    "Negros Occidental",
+    "Negros Oriental",
+    "North Cotobato",
+    "Northern Samar",
+    "Nueva Ecija",
+    "Nueva Viscaya",
+    "Occidental Mindoro",
+    "Oriental Mindoro",
+    "Palawan",
+    "Pampanga",
+    "Pangasinan",
+    "Quezon",
+    "Quirino",
+    "Rizal",
+    "Romblon",
+    "Roxas",
+    "Sarangani",
+    "Siquijor",
+    "Sorsogon",
+    "South Cotobato",
+    "Southern Leyte",
+    "Sultan Kudarat",
+    "Sulu",
+    "Surigao Del Norte",
+    "Surigao Del Sur",
+    "Tarlac",
+    "Tawi tawi",
+    "Western Samar",
+    "Zamboanga ",
+    "Zamboanga Del Norte ",
+    "Zamboanga Del Sur",
+    "Zamboanga Sibugay"
+  ],
+  "myorders": [
+    {
+      "id": "ABCDEF",
+      "statusText": "Waiting for Payment",
+      "statusId": 2,
+      "orderDate": "Nov 21, 1990",
+      "total": "300.00",
+      "address": "Lot 20 Blk 1 Spring lane homes 2, san Miguel, Taguig, MEtroManila 1632",
+      "paymentMethod": 5,
+      "items": [
+        {
+          "name": "Seven Clouds Mango Meister",
+          "price": 100,
+          "quantity": 1,
+          "image": "Seven Clouds Mango Meister.jpg"
+        },
+        {
+          "name": "Seven Clouds Pom Mixer",
+          "price": 100,
+          "quantity": 1,
+          "image": "Seven Clouds Pom Mixer.jpg"
+        },
+        {
+          "name": "Seven Clouds Screwberry",
+          "price": 100,
+          "quantity": 1,
+          "image": "Seven Clouds Screwberry.jpg"
+        }
+      ]
+    },
+    {
+      "id": "GHIJKL",
+      "statusText": "Paid",
+      "statusId": 3,
+      "orderDate": "Nov 21, 1990",
+      "total": "300.00",
+      "address": "Lot 20 Blk 1 Spring lane homes 2, san Miguel, Taguig, MEtroManila 1632",
+      "paymentMethod": 5,
+      "items": [
+        {
+          "name": "Seven Clouds Mango Meister",
+          "price": 100,
+          "quantity": 1,
+          "image": "Seven Clouds Mango Meister.jpg"
+        },
+        {
+          "name": "Seven Clouds Pom Mixer",
+          "price": 100,
+          "quantity": 1,
+          "image": "Seven Clouds Pom Mixer.jpg"
+        },
+        {
+          "name": "Seven Clouds Screwberry",
+          "price": 100,
+          "quantity": 1,
+          "image": "Seven Clouds Screwberry.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ZXCVBN",
+      "statusText": "Waiting for payment",
+      "statusId": 2,
+      "orderDate": "Nov 21, 1990",
+      "total": "250.00",
+      "address": "Lot 20 Blk 1 Spring lane homes 2, san Miguel, Taguig, MEtroManila 1632",
+      "paymentMethod": 3,
+      "items": [
+        {
+          "name": "Seven Clouds Mango Meister",
+          "price": 100,
+          "quantity": 1,
+          "image": "Seven Clouds Mango Meister.jpg"
+        },
+        {
+          "name": "Seven Clouds Pom Mixer",
+          "price": 100,
+          "quantity": 1,
+          "image": "Seven Clouds Pom Mixer.jpg"
+        },
+        {
+          "name": "Seven Clouds Screwberry",
+          "price": 50,
+          "quantity": 1,
+          "image": "Seven Clouds Screwberry.jpg"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "KSPDNZ",
+      "owner": "Jason Patrick Erana",
+      "date": "30/08/2017 9:49:12 AM",
+      "status": "Paid",
+      "total": "1600.00"
+    },
+    {
+      "id": "QJYWQN",
+      "owner": "Jason Patrick Erana",
+      "date": "28/08/2017 12:43:43 PM",
+      "status": "Paid",
+      "total": "250.00"
+    }
+  ],
+  "order": {
+    "KSPDNZ": {
+      "id": "KSPDNZ",
+      "paymentType": "BPI",
+      "deliveryMethod": "Shipping",
+      "deliveryMethodId": 1,
+      "trackingNumber": null,
+      "shippingNotes": "none",
+      "status": "Paid",
+      "statusId": 3,
+      "items": [
+        {
+          "name": "Seven Clouds Mango Meister - 60ml Low Nicotene (3mg)",
+          "price": 250.00,
+          "quantity": 1
+        },
+        {
+          "name": "Seven Clouds ScrewBerry - 60ml Low Nicotene (3mg)",
+          "price": 250.00,
+          "quantity": 1
+        },
+        {
+          "name": "Seven Clouds Pom Mixer - 60ml Low Nicotene (3mg)",
+          "price": 250.00,
+          "quantity": 2
+        },
+        {
+          "name": "Space Vapors Deluxe Vanilla Cheesecake - 50ml Low Nicotene (3mg)",
+          "price": 300.00,
+          "quantity": 1
+        },
+        {
+          "name": "Space Vapors Goat Milk Choco - 50ml Medium Nicotene (6mg)",
+          "price": 300.00,
+          "quantity": 1
+        }
+      ],
+      "paymentData": {
+        "paymentProofs": [
+          {
+            "filename": "KSPDNZ-NZ.png",
+            "dateUploaded": "2017-08-30T17:51:26.8569993+08:00"
+          }
+        ],
+        "approvedBy": "Jason Patrick Erana",
+        "approvedTime": "2017-08-30T17:52:00.7523406+08:00"
+      },
+      "isManualPayment": true
+    }
+  }
+}
