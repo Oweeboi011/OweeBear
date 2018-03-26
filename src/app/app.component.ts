@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  name:string = 'app';
-  bike:string = 'app';
-  
+  name: string = 'app';
+  bike: string = 'app';
+
   //main page banner
-  hotseatString:string = 'DEVSHIFT: LASPAGAN 3.0';
+  hotseatString: string = 'DEVSHIFT: LASPAGAN 3.0';
 
   //breadcrumb
   menuOptions = [
@@ -22,20 +22,27 @@ export class AppComponent {
     { title: 'About' }
 
   ];
+
+  //breadcrumb
+  loginDetails =
+    { name: 'BURAT', password: 'TANGINA' }
+
   //past ride section
-  pastrides = { 
-    title: 'Past Ride: Laspagan 2.0', 
-    lastdate: 'Feb 2, 2018',   
-    url: './assets/images/laspagandos_1.jpg', 
+  pastrides = {
+    title: 'Past Ride: Laspagan 2.0',
+    lastdate: 'Feb 2, 2018',
+    url: './assets/images/laspagandos_1.jpg',
     longdesc: 'Pililia Windmill Farm then we decided to take the "Laguna Loop"',
-    tip: 'Laspagan Dos'  }
+    tip: 'Laspagan Dos'
+  }
   //featured ride section
-  featrider = { 
-    title: 'Elzar and his FUJI 26er', 
-    subhead: 'Elzar Eustaquio talks about his FUJI 26" MTB ',   
-    url: './assets/images/featone.jpg', 
+  featrider = {
+    title: 'Elzar and his FUJI 26er',
+    subhead: 'Elzar Eustaquio talks about his FUJI 26" MTB ',
+    url: './assets/images/featone.jpg',
     longdesc: 'Pililia Windmill Farm then we decided to take the "Laguna Loop"',
-    tip: 'Laspagan Dos'  }
+    tip: 'Laspagan Dos'
+  }
 
   members = [
     { "name": "Owee Penaranda", "bike": "Vision 26er" },
@@ -44,13 +51,13 @@ export class AppComponent {
     { "name": "Joenas Biocarles", "bike": "Mosso 26er" }
   ];
 
-  addMember(value:any){
+  addMember(value: any) {
     this.members.push({ "name": value.name, "bike": value.bike })
-   }
+  }
 
 }
- 
-  export class MemberList {
- 
-  }
+
+export class MemberList {
+
+}
 
