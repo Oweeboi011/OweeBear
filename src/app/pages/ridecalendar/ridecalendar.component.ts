@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-ridecalendar',
-  templateUrl: './ridecalendar.component.html',
-  styleUrls: ['./ridecalendar.component.css']
+  templateUrl: './ridecalendar.component.html'
 })
 export class RidecalendarComponent {
   title = 'app';

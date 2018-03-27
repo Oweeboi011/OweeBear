@@ -16,7 +16,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.ts', '.js', '.scss']
+    extensions: ['.ts', '.js', '.scss', ',css']
   },
 
   module: {
@@ -52,6 +52,17 @@ module.exports = {
           }, {
             loader: 'import-glob-loader'
           }]
+        })
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: extractSass.extract({
+          use: [{
+            loader: "css-loader"
+
+          }
+          ]
         })
       }
       

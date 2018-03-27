@@ -17,7 +17,7 @@ module.exports = webpackMerge(commonConfig, {
   devtool: 'source-map',
 
   output: {
-    path: helpers.root('../wwwroot/dist'),
+    path: helpers.root('dist'),
     publicPath: '/',
     filename: '[name].js',
     chunkFilename: '[id].chunk.js'
@@ -37,13 +37,13 @@ module.exports = webpackMerge(commonConfig, {
         minimize: false // workaround for ng2
       }
     }),
-    new AssetsPlugin({
-      filename: 'assets.json',
-      path: helpers.root('../wwwroot/dist')
-    }),
+    // new AssetsPlugin({
+    //   filename: 'assets.json',
+    //   path: helpers.root('../wwwroot/dist')
+    // }),
     new CopyWebpackPlugin([{
-      from: './assets',
-      to: '../assets'
+      from: './src/assets',
+      to: './assets'
     }])
   ]
 });

@@ -24,7 +24,8 @@ module.exports = webpackMerge(commonConfig, {
     stats: 'minimal', 
     setup: function (app) {
         stubWebApi(app);
-        app.use('/', serveStatic(helpers.root('../wwwroot')))   ;     
+        app.use('/', serveStatic(helpers.root('../wwwroot')))   ; 
+        app.use('/assets', serveStatic(helpers.root('src/assets')))   ;     
     }
   }
 });
