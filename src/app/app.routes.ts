@@ -5,12 +5,13 @@ import { RidelibraryComponent } from './pages/ridelibrary/ridelibrary.component'
 import { RidecalendarComponent } from './pages/ridecalendar/ridecalendar.component';
 import { AboutComponent } from './pages/about/about.component';
 
+import { AppComponent, } from './app.component'
 
 export const router: Routes = [
 {path: '', redirectTo: 'apphome', pathMatch: 'full'},
 {path: 'apphome', component: AppHomeComponent},
-{path: 'ridecalendar', component: RidecalendarComponent},
 {path: 'ridelibrary', component: RidelibraryComponent},
+{path: 'ridecalendar', component: RidecalendarComponent},
 {path: 'about', component: AboutComponent}
 ];
 

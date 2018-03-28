@@ -8,6 +8,7 @@ export class AppComponent {
   title = 'app';
   name: string = 'app';
   bike: string = 'app';
+  
 
   //main page banner
   hotseatString: string = 'devshift: LASPAGAN 3.0';
