@@ -1,9 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { sources as demoUtilsSources } from '../../parts/calendarutils/sources';
+import { map } from 'rxjs/operators/map';
+import { take } from 'rxjs/operators/take';
+import { filter } from 'rxjs/operators/filter';
+export * from '../../parts/modules/calendar.module';
 
 @Component({
   selector: 'app-ridecalendar',
   templateUrl: './ridecalendar.component.html'
 })
+
 export class RidecalendarComponent {
   title = 'app';
   name: string = 'app';

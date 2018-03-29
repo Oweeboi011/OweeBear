@@ -15,6 +15,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^5.2.0",
+    "@angular/cdk": "^5.2.4",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
     "@angular/core": "^5.2.0",
@@ -24,10 +25,15 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "@ng-bootstrap/ng-bootstrap": "^1.0.2",
+    "angular-calendar": "^0.23.7",
     "bootstrap": "^4.0.0",
+    "calendar-utils": "^0.1.2",
     "clear-terminal": "0.0.2",
     "core-js": "^2.4.1",
+    "date-fns": "^1.29.0",
     "ng-select": "^1.0.0-rc.5",
+    "ngx-contextmenu": "^4.1.2",
+    "npm": "^5.8.0",
     "rxjs": "^5.5.6",
     "ui-carousel": "^0.2.0",
     "zone.js": "^0.8.19"
