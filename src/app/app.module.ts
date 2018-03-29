@@ -9,6 +9,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { RidecalendarComponent } from './pages/ridecalendar/ridecalendar.component';
 import { RidelibraryComponent } from './pages/ridelibrary/ridelibrary.component';
 import { AppHomeComponent } from './pages/apphome/app-home.component';
+import { GearLibraryComponent } from './pages/gearlibrary/gearlibrary.component';
 
 import { AppheaderComponent } from './parts/appheader/appheader.component';
 import { InfiniteCarouselComponent } from "./parts/infinite-carousel/infinite-carousel.component";
@@ -28,7 +29,8 @@ import { UICarouselModule } from "ui-carousel";
     RidecalendarComponent,
     AppheaderComponent,
     AppHomeComponent,
-    InfiniteCarouselComponent
+    InfiniteCarouselComponent,
+    GearLibraryComponent
     
   ],
   imports: [

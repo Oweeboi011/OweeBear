@@ -4,6 +4,7 @@ import { AppHomeComponent } from './pages/apphome/app-home.component';
 import { RidelibraryComponent } from './pages/ridelibrary/ridelibrary.component';
 import { RidecalendarComponent } from './pages/ridecalendar/ridecalendar.component';
 import { AboutComponent } from './pages/about/about.component';
+import { GearLibraryComponent } from './pages/gearlibrary/gearlibrary.component';
 
 import { AppComponent, } from './app.component'
 
@@ -12,6 +13,7 @@ export const router: Routes = [
 {path: 'apphome', component: AppHomeComponent},
 {path: 'ridelibrary', component: RidelibraryComponent},
 {path: 'ridecalendar', component: RidecalendarComponent},
+{path: 'gearlibrary', component: GearLibraryComponent},
 {path: 'about', component: AboutComponent}
 ];
 

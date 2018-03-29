@@ -15,6 +15,7 @@ export class AppheaderComponent {
     { title: 'Home', urlstring: '/apphome' },
     { title: 'Ride | Events', urlstring: '/ridelibrary' },
     { title: 'Calendar', urlstring: '/ridecalendar' },
+    { title: 'Gears', urlstring: '/gearlibrary' },
     { title: 'Bikes | Members', urlstring: '/' },
     { title: 'About', urlstring: '/about' }
 
