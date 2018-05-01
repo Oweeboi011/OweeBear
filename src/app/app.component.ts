@@ -15,15 +15,15 @@ export class AppComponent {
 
   //past ride section
   pastrides = {
-    title: 'Past Ride: Laspagan 2.0',
+    title: 'Laspagan 4.0',
     lastdate: 'Feb 2, 2018',
     url: './assets/images/laspagandos_1.jpg',
     longdesc: 'Pililia Windmill Farm then we decided to take the "Laguna Loop"',
-    tip: 'Laspagan Dos'
+    tip: 'Laspagan Kwatro'
   }
   //featured ride section
   featrider = {
-    title: 'Elzar and his FUJI 26er',
+    title: 'Elzar and his fuji 26er',
     subhead: 'Elzar Eustaquio talks about his FUJI 26" MTB ',
     url: './assets/images/featone.jpg',
     longdesc: 'Pililia Windmill Farm then we decided to take the "Laguna Loop"',
