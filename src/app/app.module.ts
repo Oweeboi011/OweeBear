@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarModule } from 'angular-calendar';
-import { DemoUtilsModule } from './parts/calendarutils/module';
 
 //pages
 import { AboutComponent } from './pages/about/about.component';
@@ -16,7 +15,6 @@ import { GearLibraryComponent } from './pages/gearlibrary/gearlibrary.component'
 
 //parts
 import { AppheaderComponent } from './parts/appheader/appheader.component';
-import { DemoComponent } from './parts/context-menu/component';
 import { InfiniteCarouselComponent } from "./parts/infinite-carousel/infinite-carousel.component";
 
 //components/add0ins
@@ -36,18 +34,14 @@ import { UICarouselModule } from "ui-carousel";
     AppheaderComponent,
     AppHomeComponent,
     InfiniteCarouselComponent,
-    GearLibraryComponent,
-    DemoComponent
+    GearLibraryComponent
     
   ],
   imports: [
     BrowserModule,
     routes,
     UICarouselModule,
-    SelectModule,
-    CalendarModule.forRoot(),
-    DemoUtilsModule,
-    RouterModule.forChild([{ path: '', component: DemoComponent }])
+    SelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
