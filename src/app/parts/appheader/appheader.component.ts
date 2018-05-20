@@ -14,7 +14,7 @@ export class AppheaderComponent {
   menuOptions = [
     { title: 'HOME', urlstring: '/apphome' },
     { title: 'LASPAGAN SESH', urlstring: '/ridecalendar' },
-    { title: 'RIDE LIBRARY', urlstring: '/ridelibrary' },    
+    { title: 'ROUTE LIBRARY', urlstring: '/ridelibrary' },    
     // { title: 'Bikes | Members', urlstring: '/' },
     { title: 'ABOUT', urlstring: '/about' }
 

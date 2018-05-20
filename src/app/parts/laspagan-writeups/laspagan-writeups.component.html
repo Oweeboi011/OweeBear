@@ -1,72 +1,21 @@
 <main role="main" class="container">
-     <!-- //sesh 5 -->
-     <hr class="featurette-divider">
-     <div class="row featurette">
-         <div class="col-md-9">
-             <h2 class="featurette-heading">{{ firstDividerTitle }}
-                 <span class="text-muted">{{ firstDividerSubTitle }}</span>
-             </h2>
-             <p class="lead">{{ firstDividerContent }}</p>
-             <a [href]='firstDividerlink'>{{ readMore }}</a>
-         </div>
-         <div class="col-md-3">
-             <img class='featurette-image img-fluid mx-auto' [src]='firstDividerThumbnail | safe' alt='Generic placeholder image' height='50%'>
-         </div>
-     </div>
-    <!-- //sesh 4 -->
-    <hr class="featurette-divider">
-    <div class="row featurette">
-        <div class="col-md-9">
-            <h2 class="featurette-heading">{{ firstDividerTitle }}
-                <span class="text-muted">{{ firstDividerSubTitle }}</span>
-            </h2>
-            <p class="lead">{{ firstDividerContent }}</p>
-            <a [href]='firstDividerlink'>{{ readMore }}</a>
-        </div>
-        <div class="col-md-3">
-            <img class='featurette-image img-fluid mx-auto' [src]='firstDividerThumbnail | safe' alt='Generic placeholder image' height='50%'>
-        </div>
-    </div>
-    <!-- //sesh 3 -->
-    <hr class="featurette-divider">
-    <div class="row featurette">
-        <div class="col-md-9">
-            <h2 class="featurette-heading">{{ firstDividerTitle }}
-                <span class="text-muted">{{ firstDividerSubTitle }}</span>
-            </h2>
-            <p class="lead">{{ firstDividerContent }}</p>
-            <a [href]='firstDividerlink'>{{ readMore }}</a>
-        </div>
-        <div class="col-md-3">
-            <img class='featurette-image img-fluid mx-auto' [src]='firstDividerThumbnail | safe' alt='Generic placeholder image' height='50%'>
-        </div>
-    </div>
-    <!-- //sesh 2 -->
-    <hr class="featurette-divider">
-    <div class="row featurette">
-        <div class="col-md-9">
-            <h2 class="featurette-heading">{{ firstDividerTitle }}
-                <span class="text-muted">{{ firstDividerSubTitle }}</span>
-            </h2>
-            <p class="lead">{{ firstDividerContent }}</p>
-            <a [href]='firstDividerlink'>{{ readMore }}</a>
-        </div>
-        <div class="col-md-3">
-            <img class='featurette-image img-fluid mx-auto' [src]='firstDividerThumbnail | safe' alt='Generic placeholder image' height='50%'>
-        </div>
-    </div>
-    <!-- //sesh 1 -->
-    <hr class="featurette-divider">
-    <div class="row featurette">
-        <div class="col-md-9">
-            <h2 class="featurette-heading">{{ firstDividerTitle }}
-                <span class="text-muted">{{ firstDividerSubTitle }}</span>
-            </h2>
-            <p class="lead">{{ firstDividerContent }}</p>
-            <a [href]='firstDividerlink'>{{ readMore }}</a>
-        </div>
-        <div class="col-md-3">
-            <img class='featurette-image img-fluid mx-auto' [src]='firstDividerThumbnail | safe' alt='Generic placeholder image' height='50%'>
+    <!-- //sesh 5 -->
+    <div *ngFor="let writeups of laspaganWriteupArray">
+        <hr class="featurette-divider">
+        <div class="row featurette">
+            <div class="col-md-9">
+                <h2 class="featurette-heading">{{ writeups.laspaganTitle }}
+                    <span class="text-muted">{{ writeups.laspaganSubTitle }}</span>
+                </h2>
+                <a>{{ writeups.laspagandate }}</a>
+                <p class="lead">{{ writeups.laspaganContent }}</p>                
+                <p class="lead"><b>{{ writeups.laspaganauthoreditors }}</b></p>
+                <a [href]='writeups.laspagan4link'>View Content.....</a>
+            </div>
+            <div class="col-md-3">
+                <img class='featurette-image img-fluid mx-auto' [src]='writeups.laspaganThumbnail | safe' alt='Generic placeholder image'
+                    height='50%'>
+            </div>
         </div>
     </div>
 </main>

@@ -10,7 +10,7 @@ export class AppHomeComponent {
   bike: string = 'app';
 
   aboutUS: string = 'Read more ABOUT US..';
-  readMore: string = 'Read more..';
+  readMore: string = 'View whole content..';
   //main page banner
   hotseatString: string = 'devshift: LASPAGAN 3.0';
   landingPageheaderTitle: string = 'devshift:';
@@ -23,7 +23,7 @@ export class AppHomeComponent {
   firstDividerTitle: string = 'laspagan kwatro: ';
   firstDividerSubTitle: string = 'puray offroad spin';
   firstDividerContent: string = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
-  firstDividerThumbnail: string= '/assets/images/LASPAGAN_4THUMN.jpg';
+  firstDividerThumbnail: string = '/assets/images/LASPAGAN_4THUMN.jpg';
   firstDividerlink: string = '/home';
 
   //second divider
@@ -68,6 +68,28 @@ export class AppHomeComponent {
     { "name": "Elzar Eustaquio", "bike": "Fuji 26er" },
     { "name": "Joma Silvestre", "bike": "Mountainpeak 27.5" },
     { "name": "Joenas Biocarles", "bike": "Mosso 26er" }
+  ];
+  laspaganWriteupArray = [
+    //laspagan4
+    {
+      'laspaganTitle': 'night wolf 2.0: ',
+      'laspagandate': 'MAY 13, 2018',
+      'laspaganSubTitle': 'cavite - antipolo',
+      'laspaganContent': 'Night Ride from Cavite to Antipolo, Cloud Nine....',
+      'laspaganThumbnail': '/assets/images/NIGHT_WOLF_2.jpg',
+      'laspaganauthoreditors': 'Words by Anonymous',
+      'laspagan4link': '/home'
+    },
+    //laspagan4
+    {
+      'laspaganTitle': 'laspagan kwatro: ',
+      'laspagandate': 'APRIL 28-29, 2018',
+      'laspaganSubTitle': 'puray falls',
+      'laspaganContent': 'Every cyclists want to have a ride wherein they can relax and enjoy the place where they are going. A waterfalls will be a great destination to go to especially during summer. So we planned to go Puray Falls in Rodriguez Rizal last April 28, 2018....',
+      'laspaganThumbnail': '/assets/images/LASPAGAN_4THUMN.jpg',
+      'laspaganauthoreditors': 'Words by Christian Llannos',
+      'laspagan4link': '/home'
+    }
   ];
 
   addMember(value: any) {

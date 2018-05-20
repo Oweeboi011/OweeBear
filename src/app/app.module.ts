@@ -27,6 +27,7 @@ import { AppheaderComponent } from './parts/appheader/appheader.component';
 import { InfiniteCarouselComponent } from "./parts/infinite-carousel/infinite-carousel.component";
 import { linkFooterComponent } from "./parts/link-footer/link-footer.component";
 import { LaspagaWriteups } from "./parts/laspagan-writeups/laspagan-writeups.component";
+import { RideLibraryModal } from "./parts/ridelibrary-modal/ridelibrary-modal.component";
 
 //components/add0ins
 import {routes } from './app.routes';
@@ -48,6 +49,7 @@ import { UICarouselModule } from "ui-carousel";
     InfiniteCarouselComponent,
     linkFooterComponent,
     LaspagaWriteups,
+    RideLibraryModal,
     GearLibraryComponent
     
   ],
