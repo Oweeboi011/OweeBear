@@ -1,111 +1,51 @@
 <!-- PAST RIDE SECTION -->
 <infinite-carousel></infinite-carousel>
 <main role="main" class="container">
-<!-- <div class="row mb-2">
-  <div class="col-md-6">
-    <div class="card flex-md-row mb-4 box-shadow h-md-250">
-      <div class="card-body d-flex flex-column align-items-start">
-        <strong class="d-inline-block mb-2 text-primary">Rides</strong>
-        <h3 class="mb-0">
-          <a class="text-dark" href="#">{{pastrides.title}}</a>
-        </h3>
-        <div class="mb-1 text-muted">{{pastrides.lastdate}}</div>
-        <p class="card-text mb-auto">{{ pastrides.longdesc }}</p>
-        <a href="#">Continue reading</a>
-      </div>
-      <img height="220px" src="{{ pastrides.url }}" alt="{{ pastrides.tip }}">
+  <!-- START THE FEATURETTES -->
+  <hr class="featurette-divider">
+  <div class="row featurette">
+    <div class="col-md-9">
+      <h2 class="featurette-heading">{{ landingPageheaderTitle }}
+        <span class="text-muted">{{ landingPageheaderSubTitle }}</span>
+      </h2>
+      <p class="lead">{{ landingPageheader }}
+      </p>
+      <a href="//about">{{ aboutUS }}</a>
     </div>
-  </div> -->
-  <!-- FEATURED RIDER SECTION -->
-  <!-- <div class="col-md-6">
-    <div class="card flex-md-row mb-4 box-shadow h-md-250">
-      <div class="card-body d-flex flex-column align-items-start">
-        <strong class="d-inline-block mb-2 text-success">Featured Rider</strong>
-        <h3 class="mb-0">
-          <a class="text-dark" href="#">{{ featrider.title }}</a>
-        </h3>
-        <div class="mb-1 text-muted">{{featrider.subhead }}</div>
-        <p class="card-text mb-auto">{{ featrider.longdesc }}</p>
-        <a href="#">Continue reading</a>
-      </div>
-      <img height="220px" src="{{ featrider.url }}" alt="{{ featrider.tip }}">
+    <div class="col-md-3">
+      <iframe allowtransparency frameborder='0' height='200' scrolling='no' [src]="stravaURL | safe" width='250'></iframe>
     </div>
   </div>
-</div>  -->
- <!-- START THE FEATURETTES -->
- <hr class="featurette-divider">
- <div class="row featurette">
+  <hr class="featurette-divider">
+  <div class="row featurette">
     <div class="col-md-9">
-        <h2 class="featurette-heading">devshift:<span class="text-muted">  spin all day</span></h2>
-        <p class="lead">DEVSHIFT started as a 2-man ride session (mainly Cromwel Penaranda (Cavite) and Wilfredo Bibar (Paranaque)) way back in 2017. This was NOT actually the first group name we thought about before.
-        Since we both live inside PH's southbound vicinities, we tagged ourselves as 'SouthBoys' before, although that aint good to hear (just saying). After a year, 2018 to be exact, we invited a couple of friends and co-workers which did enjoy cycling as well (Joenas Biocarles and Joma Silvestre). First, we thought of having to create our first jersey then brainstorm on team name that every member would agree on. Chatted for hours then finally, it went out, DEVSHIFT. All members are mostly web developers and frankly, we all have messed up working schedule anyway and to which that name intricately fits.
-        </p>
-        <a href="">Read more ABOUT US..</a>
-     
-      </div>
+      <h2 class="featurette-heading">{{ firstDividerTitle }}
+        <span class="text-muted">{{ firstDividerSubTitle }}</span>
+      </h2>
+      <p class="lead">{{ firstDividerContent }}</p>
+      <a [href]='firstDividerlink'>{{ readMore }}</a>
+    </div>
     <div class="col-md-3">
-      <iframe allowtransparency frameborder='0' height='300' scrolling='no' src='https://www.strava.com/clubs/341092/latest-rides/dd699be860cf5efe002aeb86cae23462b15c819a?show_rides=true' width='300'></iframe>
-      </div>
-      </div>
- <hr class="featurette-divider">
- <div class="row featurette">
-   <div class="col-md-9">
-     <h2 class="featurette-heading">laspagan kwatro: <span class="text-muted">puray offroad spin</span></h2>
-     <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-     <a>Read More....</a>
-   </div>
-   <div class="col-md-3">
-     <img class="featurette-image img-fluid mx-auto" src="/assets/images/LASPAGAN_4THUMN.jpg" alt="Generic placeholder image" height="50%">
-   </div>
- </div>
- 
- <hr class="featurette-divider">
- <div class="row featurette">
-    <div class="col-md-9">
-        <h2 class="featurette-heading">laspagan tres: <span class="text-muted">revpal climb.</span></h2>
-        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <a>Read More....</a>
-      </div>
-    <div class="col-md-3">
-        <img class="featurette-image img-fluid mx-auto" src="/assets/images/LASPAGAN_3THUMN.jpg" alt="Generic placeholder image" height="50%">
-      </div>
-  
-  
- </div>
- <hr class="featurette-divider">
- <div class="row featurette">
-    <div class="col-md-9">
-        <h2 class="featurette-heading">jersey uno: <span class="text-muted">first release.</span></h2>
-        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <a>Read More....</a>
-      </div>
-    <div class="col-md-3">
-        <img class="featurette-image img-fluid mx-auto" src="/assets/images/unoj.jpg" alt="Generic placeholder image" height="50%">
-      </div>
- </div>
-<div class="row">
-  <div class="col-md-8 blog-main">
-       <!-- /.blog-post -->
-
+      <img class='featurette-image img-fluid mx-auto' [src]='firstDividerThumbnail | safe' alt='Generic placeholder image' height='50%'>
+    </div>
   </div>
-</div>
-<!-- /.row -->
-
+  <hr class="featurette-divider">
+  <div class="row featurette">
+    <div class="col-md-9">
+      <h2 class="featurette-heading">{{ secondDividerTitle }}
+        <span class="text-muted">{{ secondtDividerSubTitle }}</span>
+      </h2>
+      <p class="lead">{{ secondDividerContent }}</p>
+      <a [href]='secondDividerlink'>{{ readMore }}</a>
+    </div>
+    <div class="col-md-3">
+      <img class="featurette-image img-fluid mx-auto" [src]='secondDividerThumbnail | safe' alt="Generic placeholder image"
+        height="50%">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 blog-main">
+    </div>
+  </div>
 </main>
-
-<footer class="blog-footer">
-<p class="swFont-small">DevShift since 2017</p>
-<!-- <div class="p-3"> -->
-  <!-- <h4 class="font-italic">Find us at:</h4> -->
-  <a href="https://www.instagram.com/devshift01/" alt="Catch as in INSTAGRAM">
-    <img src="http://sguru.org/wp-content/uploads/2018/01/best-instagram-logo-download-here-15.png" height="40px">
-    </a>
-    <a href="https://www.facebook.com/groups/383590185419438">
-      <img src="http://bmighty2.com/wp-content/uploads/2014/04/1271084_10152203108461729_809245696_o-300x300.png" height="40px" title="Catch as in FACEBOOK">
-    </a>
-    <a href="https://www.strava.com/clubs/devShift"  alt="Catch as in STRAVA">
-      <img src="http://richardwalkslondon.com/wp-content/images/strava-icon40.jpg" height="40px">
-      </a>
- 
-<!-- </div> -->
-</footer>
+<link-footer></link-footer>

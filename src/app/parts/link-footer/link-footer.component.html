@@ -1,0 +1,14 @@
+<main role="main" class="container">
+    <footer class="blog-footer">
+        <p class="swFont-small">{{ footerHeader }}</p>
+        <a [href]='igHref | safe' target="_blank">
+            <img [src]='igIMGsrc | safe' height="40px" title={{igAlt}}>
+        </a>
+        <a [href]='fbHref | safe'target="_blank">
+            <img [src]='fbIMGsrc | safe' height="40px" title='{{fbAlt}}'>
+        </a>
+        <a [href]="stvHref | safe" target="_blank">
+            <img [src]='stvIMGsrc | safe' height="40px" title='{{stvAlt}}'>
+        </a>
+    </footer>
+</main>

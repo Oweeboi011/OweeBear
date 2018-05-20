@@ -12,11 +12,11 @@ export class AppheaderComponent {
 
       //breadcrumb
   menuOptions = [
-    { title: 'Home', urlstring: '/apphome' },
-    { title: 'Ride Archives', urlstring: '/ridelibrary' },
-    { title: 'Laspagan Sesh', urlstring: '/ridecalendar' },
-    { title: 'Bikes | Members', urlstring: '/' },
-    { title: 'About', urlstring: '/about' }
+    { title: 'HOME', urlstring: '/apphome' },
+    { title: 'LASPAGAN SESH', urlstring: '/ridecalendar' },
+    { title: 'RIDE LIBRARY', urlstring: '/ridelibrary' },    
+    // { title: 'Bikes | Members', urlstring: '/' },
+    { title: 'ABOUT', urlstring: '/about' }
 
   ];
 }

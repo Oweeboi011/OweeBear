@@ -5,7 +5,16 @@ import { FormsModule } from '@angular/forms';
 import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarModule } from 'angular-calendar';
+import { Pipe, PipeTransform } from '@angular/core';
+import { DomSanitizer} from '@angular/platform-browser';
 
+@Pipe({ name: 'safe' })
+export class SafePipe implements PipeTransform {
+  constructor(private sanitizer: DomSanitizer) {}
+  transform(url) {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+} 
 //pages
 import { AboutComponent } from './pages/about/about.component';
 import { RidecalendarComponent } from './pages/ridecalendar/ridecalendar.component';
@@ -16,6 +25,8 @@ import { GearLibraryComponent } from './pages/gearlibrary/gearlibrary.component'
 //parts
 import { AppheaderComponent } from './parts/appheader/appheader.component';
 import { InfiniteCarouselComponent } from "./parts/infinite-carousel/infinite-carousel.component";
+import { linkFooterComponent } from "./parts/link-footer/link-footer.component";
+import { LaspagaWriteups } from "./parts/laspagan-writeups/laspagan-writeups.component";
 
 //components/add0ins
 import {routes } from './app.routes';
@@ -27,6 +38,7 @@ import { UICarouselModule } from "ui-carousel";
 
 @NgModule({
   declarations: [
+    SafePipe,
     AppComponent,
     AboutComponent,
     RidelibraryComponent,
@@ -34,6 +46,8 @@ import { UICarouselModule } from "ui-carousel";
     AppheaderComponent,
     AppHomeComponent,
     InfiniteCarouselComponent,
+    linkFooterComponent,
+    LaspagaWriteups,
     GearLibraryComponent
     
   ],
