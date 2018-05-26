@@ -78,7 +78,7 @@ export class AppHomeComponent {
       'laspaganContent': 'Night Ride from Cavite to Antipolo, Cloud Nine....',
       'laspaganThumbnail': '/assets/images/NIGHT_WOLF_2.jpg',
       'laspaganauthoreditors': 'Words by Anonymous',
-      'laspagan4link': '/home'
+      'laspagan4link': '/ridecalendar'
     },
     //laspagan4
     {
@@ -88,7 +88,7 @@ export class AppHomeComponent {
       'laspaganContent': 'Every cyclists want to have a ride wherein they can relax and enjoy the place where they are going. A waterfalls will be a great destination to go to especially during summer. So we planned to go Puray Falls in Rodriguez Rizal last April 28, 2018....',
       'laspaganThumbnail': '/assets/images/LASPAGAN_4THUMN.jpg',
       'laspaganauthoreditors': 'Words by Christian Llannos',
-      'laspagan4link': '/home'
+      'laspagan4link': '/ridecalendar'
     }
   ];
 

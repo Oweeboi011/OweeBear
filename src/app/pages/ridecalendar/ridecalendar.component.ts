@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 import { map } from 'rxjs/operators/map';
 import { take } from 'rxjs/operators/take';
 import { filter } from 'rxjs/operators/filter';
@@ -13,7 +14,7 @@ export class RidecalendarComponent {
   name: string = 'app';
   bike: string = 'app';
 
-  //main page banner
+   //main page banner
   hotseatString: string = 'devshift: LASPAGAN 3.0';
 
   //breadcrumb

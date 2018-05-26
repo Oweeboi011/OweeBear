@@ -1,3 +1,17 @@
+<ng-template #content let-c="close" let-d="dismiss">
+    <div class="modal-header">
+      <h4 class="modal-title">Modal title</h4>
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p>One fine body&hellip;</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-light" (click)="c('Close click')">Close</button>
+    </div>
+  </ng-template>
 <main role="main" class="container">
     <!-- //sesh 5 -->
     <div *ngFor="let writeups of laspaganWriteupArray">
@@ -10,7 +24,7 @@
                 <a>{{ writeups.laspagandate }}</a>
                 <p class="lead">{{ writeups.laspaganContent }}</p>                
                 <p class="lead"><b>{{ writeups.laspaganauthoreditors }}</b></p>
-                <a [href]='writeups.laspagan4link'>View Content.....</a>
+                <ridecalendar-modal-part [inputPartString]='writeups.laspaganTitle'></ridecalendar-modal-part>
             </div>
             <div class="col-md-3">
                 <img class='featurette-image img-fluid mx-auto' [src]='writeups.laspaganThumbnail | safe' alt='Generic placeholder image'

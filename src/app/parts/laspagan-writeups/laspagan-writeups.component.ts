@@ -1,8 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewChild, OnInit, AfterViewInit } from '@angular/core';
+import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { RideCalendarModal } from "../ridecalendar-modal/ridecalendar-modal.component";
+import { Http } from '@angular/http';
 
 @Component({
     selector: 'laspagan-writeups',
-    templateUrl: 'laspagan-writeups.component.html'
+    templateUrl: 'laspagan-writeups.component.html',
+    styles: [`
+    .dark-modal .modal-content {
+      background-color: #292b2c;
+      color: white;
+    }
+    .dark-modal .close {
+      color: white;
+    }
+    .light-blue-backdrop {
+      background-color: #5cb3fd;
+    }
+  `]
 })
 
 export class LaspagaWriteups {
@@ -10,7 +25,9 @@ export class LaspagaWriteups {
     name: string = 'app';
     bike: string = 'app';
     readMore: string = '/home';
-
+    // constructor(private http : Http) { }
+    calendarModal: RideCalendarModal;
+    modalService: NgbModal;
     laspaganWriteupArray = [
         //laspagan5
         {
@@ -20,7 +37,7 @@ export class LaspagaWriteups {
             'laspaganContent': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
             'laspaganThumbnail': '/assets/images/LASPAGAN_NOTHUMN.jpg',
             'laspaganauthoreditors': 'Words by Anonymous',
-            'laspagan4link': '/home'
+            'laspagan4link': '/ridecalendar'
         },
         //laspagan4
         {
@@ -30,7 +47,7 @@ export class LaspagaWriteups {
             'laspaganContent': 'Every cyclists want to have a ride wherein they can relax and enjoy the place where they are going. A waterfalls will be a great destination to go to especially during summer. So we planned to go Puray Falls in Rodriguez Rizal last April 28, 2018....',
             'laspaganThumbnail': '/assets/images/NIGHT_WOLF_2.jpg',
             'laspaganauthoreditors': 'Words by Anonymous',
-            'laspagan4link': '/home'
+            'laspagan4link': '/ridecalendar'
         },
         //laspagan4
         {
@@ -40,7 +57,7 @@ export class LaspagaWriteups {
             'laspaganContent': 'Every cyclists want to have a ride wherein they can relax and enjoy the place where they are going. A waterfalls will be a great destination to go to especially during summer. So we planned to go Puray Falls in Rodriguez Rizal last April 28, 2018....',
             'laspaganThumbnail': '/assets/images/LASPAGAN_4THUMN.jpg',
             'laspaganauthoreditors': 'Words by Christian Llannos',
-            'laspagan4link': '/home'
+            'laspagan4link': '/ridecalendar'
         },
         //laspagan4
         {
@@ -50,7 +67,7 @@ export class LaspagaWriteups {
             'laspaganContent': 'Every cyclists want to have a ride wherein they can relax and enjoy the place where they are going. A waterfalls will be a great destination to go to especially during summer. So we planned to go Puray Falls in Rodriguez Rizal last April 28, 2018....',
             'laspaganThumbnail': '/assets/images/NIGHT_WOLF_1.jpg',
             'laspaganauthoreditors': 'Words by Anonymous',
-            'laspagan4link': '/home'
+            'laspagan4link': '/ridecalendar'
         },
         //laspagan3
         {
@@ -60,7 +77,7 @@ export class LaspagaWriteups {
             'laspaganContent': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
             'laspaganThumbnail': '/assets/images/LASPAGAN_3THUMN.jpg',
             'laspaganauthoreditors': 'Words by Anonymous',
-            'laspagan4link': '/home'
+            'laspagan4link': '/ridecalendar'
         },
         //laspagan2
         {
@@ -70,7 +87,7 @@ export class LaspagaWriteups {
             'laspaganContent': 'Haven’t been yet to Bangui Ilocos to see the huge windmills of the north? From the busy streets of Manila is a nearby City called Rizal where you can see the tall and majestic structures that not only are eco-friendly but also helps to give electrical energy for its neighboring barangays.....',
             'laspaganThumbnail': '/assets/images/LASPAGAN_2THUMN.jpg',
             'laspaganauthoreditors': 'Words by Joma Silvestre',
-            'laspagan4link': '/home'
+            'laspagan4link': '/ridecalendar'
         },
         //laspagan1
         {
@@ -80,7 +97,7 @@ export class LaspagaWriteups {
             'laspaganContent': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
             'laspaganThumbnail': '/assets/images/LASPAGAN_1THUMN.jpg',
             'laspaganauthoreditors': 'Words by Anonymous',
-            'laspagan4link': '/home'
+            'laspagan4link': '/ridecalendar'
         },
         //laspagan1
         {
@@ -90,8 +107,9 @@ export class LaspagaWriteups {
             'laspaganContent': 'When you think about the perfect riding scene you picture sunny skies, green trees, flat roads and endless blue skies above. But alas, we were given a good dose of expectations vs reality. For starters October 4 is not a sunny day, its raining in fact and day before we are thinking to cancel it due to weather forecast. But we hoped the condition to improve, it did, so we pushed through as expected......',
             'laspaganThumbnail': '/assets/images/LASPAGAN_0THUMN.jpg',
             'laspaganauthoreditors': 'Words by Fred Bibar',
-            'laspagan4link': '/home'
+            'laspagan4link': '/ridecalendar'
         }
     ];
+    
 
 }

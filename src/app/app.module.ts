@@ -2,19 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarModule } from 'angular-calendar';
 import { Pipe, PipeTransform } from '@angular/core';
-import { DomSanitizer} from '@angular/platform-browser';
+import { DomSanitizer } from '@angular/platform-browser';
+import {HttpClientModule, HttpClient } from '@angular/common/http';
 
 @Pipe({ name: 'safe' })
 export class SafePipe implements PipeTransform {
-  constructor(private sanitizer: DomSanitizer) {}
+  constructor(private sanitizer: DomSanitizer) { }
   transform(url) {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
-} 
+}
 //pages
 import { AboutComponent } from './pages/about/about.component';
 import { RidecalendarComponent } from './pages/ridecalendar/ridecalendar.component';
@@ -28,9 +29,10 @@ import { InfiniteCarouselComponent } from "./parts/infinite-carousel/infinite-ca
 import { linkFooterComponent } from "./parts/link-footer/link-footer.component";
 import { LaspagaWriteups } from "./parts/laspagan-writeups/laspagan-writeups.component";
 import { RideLibraryModal } from "./parts/ridelibrary-modal/ridelibrary-modal.component";
+import { RideCalendarModal } from "./parts/ridecalendar-modal/ridecalendar-modal.component";
 
 //components/add0ins
-import {routes } from './app.routes';
+import { routes } from './app.routes';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { SelectModule } from 'ng-select'
@@ -50,14 +52,16 @@ import { UICarouselModule } from "ui-carousel";
     linkFooterComponent,
     LaspagaWriteups,
     RideLibraryModal,
-    GearLibraryComponent
-    
+    GearLibraryComponent,
+    RideCalendarModal
   ],
   imports: [
     BrowserModule,
     routes,
     UICarouselModule,
-    SelectModule
+    SelectModule,
+    NgbModule.forRoot(),
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
