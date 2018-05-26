@@ -11,32 +11,32 @@ export class RidelibraryComponent {
   ridelibraryThumbnails = [
     {
       'rlThumbnail': '/assets/images/LASPAGAN_NOTHUMN.jpg',
-      'rlEventName': 'Event Name Sample',
+      'rlEventName': 'Laspagan 1: Cavite X Norzagaray',
       'rlEventDescription': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
       'rlThumbnail': '/assets/images/LASPAGAN_NOTHUMN.jpg',
-      'rlEventName': 'Event Name Sample',
+      'rlEventName': 'Laspagan 2: Laguna Loop',
       'rlEventDescription': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
     },
     {
       'rlThumbnail': '/assets/images/LASPAGAN_NOTHUMN.jpg',
-      'rlEventName': 'Event Name Sample',
+      'rlEventName': 'Laspagan 3: RevPal X Cavite Loop',
       'rlEventDescription': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
       'rlThumbnail': '/assets/images/LASPAGAN_NOTHUMN.jpg',
-      'rlEventName': 'Event Name Sample',
+      'rlEventName': 'Night Wolf 1: Cavite X Moa',
       'rlEventDescription': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
       'rlThumbnail': '/assets/images/LASPAGAN_NOTHUMN.jpg',
-      'rlEventName': 'Event Name Sample',
+      'rlEventName': 'Laspagan 4: Puray X Wawa Dam',
       'rlEventDescription': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {
       'rlThumbnail': '/assets/images/LASPAGAN_NOTHUMN.jpg',
-      'rlEventName': 'Event Name Sample',
+      'rlEventName': 'Night Wolf 2: Cavite X Antipolo',
       'rlEventDescription': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     },
     {

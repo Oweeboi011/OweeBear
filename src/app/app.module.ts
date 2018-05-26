@@ -30,6 +30,8 @@ import { linkFooterComponent } from "./parts/link-footer/link-footer.component";
 import { LaspagaWriteups } from "./parts/laspagan-writeups/laspagan-writeups.component";
 import { RideLibraryModal } from "./parts/ridelibrary-modal/ridelibrary-modal.component";
 import { RideCalendarModal } from "./parts/ridecalendar-modal/ridecalendar-modal.component";
+import { GoogleRoutePart } from "./parts/google-route-part/google-route-part.component";
+import { GoogleMapModal } from "./parts/googlemap-modal/googlemap-modal.component";
 
 //components/add0ins
 import { routes } from './app.routes';
@@ -53,7 +55,9 @@ import { UICarouselModule } from "ui-carousel";
     LaspagaWriteups,
     RideLibraryModal,
     GearLibraryComponent,
-    RideCalendarModal
+    RideCalendarModal,
+    GoogleRoutePart,
+    GoogleMapModal
   ],
   imports: [
     BrowserModule,
