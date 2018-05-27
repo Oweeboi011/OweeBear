@@ -8,6 +8,7 @@ import { CalendarModule } from 'angular-calendar';
 import { Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import {HttpClientModule, HttpClient } from '@angular/common/http';
+import { Http, HttpModule, Headers } from '@angular/http';
 
 @Pipe({ name: 'safe' })
 export class SafePipe implements PipeTransform {
@@ -65,7 +66,8 @@ import { UICarouselModule } from "ui-carousel";
     UICarouselModule,
     SelectModule,
     NgbModule.forRoot(),
-    HttpClientModule 
+    HttpClientModule,
+    HttpModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

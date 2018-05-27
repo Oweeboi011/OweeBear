@@ -1,23 +1,11 @@
-import { Component, ViewChild, OnInit, AfterViewInit } from '@angular/core';
+import { Component, ViewChild, OnInit, AfterViewInit, ElementRef } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { RideCalendarModal } from "../ridecalendar-modal/ridecalendar-modal.component";
-import { Http } from '@angular/http';
+import { Http, HttpModule, Headers } from '@angular/http';
 
 @Component({
     selector: 'laspagan-writeups',
-    templateUrl: 'laspagan-writeups.component.html',
-    styles: [`
-    .dark-modal .modal-content {
-      background-color: #292b2c;
-      color: white;
-    }
-    .dark-modal .close {
-      color: white;
-    }
-    .light-blue-backdrop {
-      background-color: #5cb3fd;
-    }
-  `]
+    templateUrl: 'laspagan-writeups.component.html'
 })
 
 export class LaspagaWriteups {
@@ -28,6 +16,8 @@ export class LaspagaWriteups {
     // constructor(private http : Http) { }
     calendarModal: RideCalendarModal;
     modalService: NgbModal;
+
+    constructor(private http: Http) { }
     laspaganWriteupArray = [
         //laspagan5
         {
@@ -110,6 +100,20 @@ export class LaspagaWriteups {
             'laspagan4link': '/ridecalendar'
         }
     ];
-    
+    ngOnInit(): void {
+
+        const functionURI = 'https://devshiftappsvc.azurewebsites.net/api/TriggerSQLCall?eventId=%22Laspagan%205%22';
+        console.log(functionURI);
+        let input = {
+            name: "Azure",
+          };
+      
+
+          let headers = new Headers();
+          headers.append('Content-Type', 'application/json');      
+          this.http.post(functionURI, input, { headers: headers } ).subscribe(data => {
+            console.log(data);
+          });
+    }
 
 }

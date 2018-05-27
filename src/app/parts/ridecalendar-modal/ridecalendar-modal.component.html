@@ -5,10 +5,13 @@
     </button>
   </div>
   <div class="modal-body">
-    <p>One fine body&hellip;</p>
+    <p>Event: {{ modalSubTitle }}</p>
+    <p>Date: {{ modalDate }}</p>
+    <p>{{ modalContent }}</p>
+    <a>Words by {{ modalAuthor }}</a>
   </div>
   <div class="modal-footer">
     <button type="button" class="btn btn-outline-primary" (click)="c('Close click')">Close</button>
   </div>
 </ng-template>
-<button class="btn btn-outline-primary mb-2 mr-2" (click)="openLg(content)">View Content</button> 
+<button class="btn btn-outline-primary mb-2 mr-2" (click)="openLg(content)">View Content</button>
